@@ -1,0 +1,265 @@
+@font-face {
+    font-family: mainfont;
+    src: url(fonts/mainfont.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/Cinzel-Black.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(fonts/Rogie.ttf);
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/main\ home\ pg\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styling for Navigation Bar */
+.nav {
+    padding: 10px;
+    text-align: center;
+    font-family: font3;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+    color: #fff
+    
+}
+
+.nav-logo {
+    width: 150px; /* Adjust the width of the logo */
+    height: auto;
+    text-align: left;
+  
+}
+
+/* Styling for Image Gallery */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    flex: 0 0 30%; /* Adjust the width of each column */
+    margin-bottom: 20px;
+}
+
+.column img {
+    width: 100%;
+    border: 3px solid gold; /* Add a gold border around the images */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+
+h1{
+    text-align: center;
+    font-family: mainfont;
+    color: gold;
+}
+
+h2{
+    text-align: center;
+    font-family: mainfont;
+    color: gold;
+}
+
+h3{
+    text-align: center;
+    font-family: mainfont;
+    color: gold;
+}
+
+h{
+    text-align: left;
+    font-family: mainfont;
+    color: gold;
+}
+
+
+p{
+    text-align: center;
+    color: gold;
+    font-family: font2;
+}
+
+p1{
+    text-align: left;
+    color: gold;
+    font-family: font2;
+}
+
+
+
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.columnn {
+    flex: 0 0 30%; /* Adjust the width of each column */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.columnn img {
+    width: 100%;
+    border: 3px solid gold; /* Add a gold border around the images */
+    border-radius: 8px; /* Optional: Add border radius for rounded corners */
+}
+
+.vertical-images .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.vertical-images .column img {
+    width: auto; /* Maintain aspect ratio */
+    height: 10px; /* Set the desired height */
+}
+
+.vertical-img {
+    height: auto;
+    display: block;
+    margin: 0 auto;  
+}
+
+.column:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
+.columnn:hover{
+    transform: scale(1.1);
+}
+
+.news{
+    background-image: url(/images/news3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Plot{
+    background-image: url(/images/main\ bg\ img.jpg);
+}
+
+
+.characters{
+    background-image: url(images/characters2.jpg);
+    
+}
+
+.buy{
+    background-image: url(/images/buy\ now\ bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-buy{
+    text-align: center;
+    padding-top: 9%;
+}
+
+.video{
+      text-align: center;
+}
+
+/* Styling for the intro animation */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    z-index: 10;
+    transition: top 1s ease;
+}
+
+.logo-header {
+    display: flex;
+}
+
+.logo {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.logo.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logo.fade {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+.nav-logo {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+
+}
+
+.nav a:hover {
+    color: gold;
+}
+
+.btn{
+    font-family: font3;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+    background-color: black;
+}
+
+
+.btn1{
+     text-align: center;
+     padding-bottom: 50px;
+}
+
+.btn2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
